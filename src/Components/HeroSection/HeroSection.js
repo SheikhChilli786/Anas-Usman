@@ -16,7 +16,7 @@ export default class SimpleSlider extends Component {
 
     componentDidMount() {
         // Make a GET request to the API endpoint
-        axios.get("http://127.168.1.13:8000/api/carousels/")
+        axios.get("http://172.18.48.1:8000/api/carousels/")
             .then((response) => {
                 // Update the state with the data received from the API
                 console.log(response.data)
